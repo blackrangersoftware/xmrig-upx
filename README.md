@@ -1,5 +1,5 @@
 
-[How to Mine uPlexa](https://medium.com/@uplexa/how-to-mine-uplexa-on-your-pc-5c9a3d86acb2)
+[How to Mine uPlexa](https://medium.com/@herominers/how-to-mine-uplexa-upx-complete-beginners-guide-f0eab42fedb8)
 
 
 
