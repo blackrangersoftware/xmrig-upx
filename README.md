@@ -1,19 +1,28 @@
+
+[How to Mine uPlexa](https://medium.com/@uplexa/how-to-mine-uplexa-on-your-pc-5c9a3d86acb2)
+
+
+
+[uPlexa (UPX) Mining Pool by HeroMiners](https://uplexa.herominers.com)
+
+
+
 # XMRig-UPX
 
-[![GitHub Release Date](https://img.shields.io/github/release-date-pre/xmrig/xmrig.svg)](https://github.com/uPlexa/xmrig-upx/releases)
-[![GitHub license](https://img.shields.io/github/license/xmrig/xmrig.svg)](https://github.com/uPlexa/xmrig-upx/blob/master/LICENSE)
+[![GitHub Release Date](https://img.shields.io/github/release-date-pre/xmrig/xmrig.svg)](https://github.com/herominers/xmrig-upx/releases)
+[![GitHub license](https://img.shields.io/github/license/xmrig/xmrig.svg)](https://github.com/herominers/xmrig-upx/blob/master/LICENSE)
 
 XMRig-UPX is a high performance uPlexa (UPX) CPU miner, with official support for Windows and Linux.
 Originally based on cpuminer-multi with heavy optimizations/rewrites and removing a lot of legacy code, since version 1.0.0 completely rewritten from scratch on C++.
 
-<img src="https://i.imgur.com/ZhkaKA1.png" width="619" >
+<img src="https://uplexa.herominers.com/xmrig-upx.png" width="619" >
 
 #### Table of contents
 * [Features](#features)
 * [Download](#download)
 * [Usage](#usage)
 * [Algorithm variations](#algorithm-variations)
-* [Build](https://github.com/uPlexa/xmrig-upx/wiki/Build)
+* [Build](https://github.com/herominers/xmrig-upx/wiki/Build)
 * [Other information](#other-information)
 * [Contacts](#contacts)
 
@@ -24,9 +33,20 @@ Originally based on cpuminer-multi with heavy optimizations/rewrites and removin
 * Autoswitching from v1 to v2 will not work due to memory changes
 
 ## Download
-* Binary releases: https://github.com/uPlexa/xmrig-upx/releases
-* Git tree: https://github.com/uPlexa/xmrig-upx.git
-  * Clone with `git clone https://github.com/uPlexa/xmrig-upx.git` :hammer: [Build instructions](https://github.com/uPlexa/xmrig-upx/wiki/Build).
+* Binary releases: https://github.com/herominers/xmrig-upx/releases
+* Git tree: https://github.com/herominers/xmrig-upx.git
+  * Clone with `git clone https://github.com/herominers/xmrig-upx.git` :hammer: [Build instructions](https://github.com/herominers/xmrig-upx/wiki/Build).
+ 
+ 
+# Ubuntu build
+`
+sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
+git clone https://github.com/herominers/xmrig-upx.git
+cd xmrig && mkdir build && cd build
+cmake ..
+make -j$(nproc)
+`
+
 
 ## Usage
 Use [config.xmrig.com](https://config.xmrig.com/xmrig) to generate, edit or share configurations.
@@ -108,5 +128,5 @@ Also you can use configuration via config file, default name **config.json**.
 
 
 ## Contacts
-* [uplexa](https://reddit.com/r/uplexa)
-* [discord](https://discord.gg/a7mAQwJ)
+* [herominers-telegram](https://t.me/HeroMinersPool)
+* [herominers-discord](https://discordapp.com/invite/gvWSs84)
