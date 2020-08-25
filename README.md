@@ -39,13 +39,13 @@ Originally based on cpuminer-multi with heavy optimizations/rewrites and removin
  
  
 # Ubuntu build
-`
+```
 sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
 git clone https://github.com/herominers/xmrig-upx.git
 cd xmrig && mkdir build && cd build
 cmake ..
 make -j$(nproc)
-`
+```
 
 
 ## Usage
